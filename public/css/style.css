@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    height: 100vh;
+    background-color: #ff0b55;
+    text-align: center;
+    font-family: cursive;
+}
+.wrapper h1
+{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+.center
+{
+    height: 200px;
+    background-color:black;
+    width: 20rem;
+    color: wheat;
+    margin:10rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    line-height: 2;
+    color: yellow;
+}
+.input input[type="text"]
+{
+    border-color: yellow;
+    border-radius:10px; 
+    width: 60%;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+    
+}
