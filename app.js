@@ -11,6 +11,10 @@ app.get("/",function(req,res){
     res.render('home');
 });
 
+app.get("/chat",function(req,res){
+    res.render("chat");
+})
+
 app.listen(3000,function(err){
   if(err){
     console.log(err);
